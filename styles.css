@@ -1,0 +1,92 @@
+#container{
+  height :500px;
+  display: flex;
+  align-items: flex-end;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 5rem;
+  Margin-top:10rem
+}
+
+body{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  background-color:#DDDDDD;
+}
+
+h3{
+  align-self: flex-start;
+  color: black;
+}
+.bar{
+  width: 10px;
+  background-color:#06113C;
+  margin: 1px;
+}
+
+/* bootstrap styling */
+.container-fluid{
+  padding: 5px 10px 0;
+
+}
+
+/* color :  #06113C
+#FF8C32
+#DDDDDD
+#EEEEEE
+ */
+.navbar{
+  padding-top:0;
+  width: 100%;
+  position: fixed;
+  background-color:  #FF8C32;
+}
+
+.nav-link{
+  color: black;
+  font-size: 1rem;
+  font-weight: 500;
+  margin: 0 15px 0;
+  padding: 10px;
+}
+
+.navbar-nav{
+  text-align: right;
+
+}
+button{
+  background-color: #FF8C32;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  width:100px;
+  height: 50px;
+  padding: 15px;
+  border: 10px;
+  border-top-left-radius:10px;
+  border-top-right-radius:10px;
+  border-bottom-right-radius:10px;
+  border-bottom-left-radius:10px;
+}
+
+.bottom-container{
+
+  text-align: center;
+  margin-bottom: 0;
+  background-color: #FF8C32;
+  padding: 60px;
+  margin-top: 50px;
+  Margin-top:10rem
+  position: sticky;
+  width: 2420px;
+}
+
+.footer-link{
+  color: black;
+  margin-top: 5px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
